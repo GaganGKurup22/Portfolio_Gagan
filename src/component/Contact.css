@@ -1,0 +1,64 @@
+.contact {
+  padding: 5rem 1rem;
+  background: url("/IMG-20241012-WA0046.jpg") no-repeat center center/cover;
+  color: #fff;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-content {
+  background: rgba(0, 0, 0, 0.6); /* Add semi-transparent background for text */
+  padding: 2rem;
+  border-radius: 8px;
+  text-align: center;
+  width: 90%;
+  max-width: 600px;
+}
+
+.contact h2 {
+  font-size: 2.4rem;
+  margin-bottom: 2rem;
+  color: #fff;
+}
+
+.social-links {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.social-link {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none;
+  color: #fff;
+  transition: transform 0.2s ease-in-out, color 0.2s ease-in-out;
+}
+
+.social-link:hover {
+  transform: translateY(-5px);
+  color: #00bfff; /* Highlight color on hover */
+}
+
+.social-logo {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 0.5rem;
+}
+
+.social-name {
+  font-size: 1rem;
+  text-align: center;
+}
+
+.contact p {
+  font-size: 1rem;
+  max-width: 800px;
+  margin-top: 2rem;
+}
