@@ -1,5 +1,5 @@
 .hero {
-  background-image: url('C:\vscode\portfolio\frontend\react_class\public\IMG-20240916-WA0004 (1).jpg'); /* Replace with the actual image path */
+  background-image: url('/IMG-20240916-WA0004 (1).jpg'); /* Replace with the actual image path */
   background-size: cover; 
   background-position: right 20%;
 
